@@ -5,13 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>森Art公式サイト</title>
   <style>
+    /* 画面幅いっぱいに表示する設定 */
+    .hero-img {
+    width: 100%;    /* 横幅を100%に */
+    height: auto;   /* 縦横比を維持 */
+    display: block; /* 余計な余白を消すため */
+    margin: 0;      /* 余白リセット */
+    }
     body {
       margin: 0;
       font-family: sans-serif;
     }
     header, footer {
       background: #333;
-      color: #fff;
+      color: #a59aca;
       padding: 1rem;
       text-align: center;
     }
@@ -39,15 +46,16 @@
 <body>
   <header>
     <div class="container">
-      <h1>Jamのポートフォリオ</h1>
+      <h1>森Art公式サイト</h1>
       <nav>
         <a href="#illustrations">イラスト</a>
         <a href="#games">ゲーム</a>
+        <a href="#other">その他作品</a>
         <a href="#contact">連絡先</a>
       </nav>
     </div>
   </header>
-  <p><img src="1500×1500.jpg" alt="リンファ"></p>
+  <p><img src="1500x500.jpg" alt="リンファ" class="hero-img"></p>
   <main class="container">
     <section id="illustrations">
       <h2>イラスト</h2>
@@ -59,9 +67,14 @@
     <section id="games">
       <h2>ゲーム</h2>
       <!-- ゲームの概要やリンクをここに追加しなさいよ！ -->
-      <p><img src="1500×1500.jpg" alt="リンファ"></p>
+      <p><img src="1500x500.jpg" alt="リンファ"></p>
       <p>制作中のゲームや完成作品へのリンクを貼る</p>
     </section>
+
+      <h2>その他作品</h2>
+      <p><img src="1500x500.jpg" alt="ムーンガーディアン・ユエ～襲来!!双子怪人ゲルティーネ&ボルティーネ!!～"></p>
+      <p><img src="1500x500.jpg" alt="ムーンガーディアン・ユエ～狙われたムーンガーディアン～"></p>
+      <p><img src="1500x500.jpg" alt="堕ちること瑠璃の如く"></p>
 
     <section id="contact">
       <h2>連絡先</h2>
